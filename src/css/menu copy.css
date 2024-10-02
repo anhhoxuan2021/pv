@@ -1,0 +1,147 @@
+.menu-top-home{
+    position: absolute;
+    top:0
+}
+
+.outer-container {
+    padding-right: 16px;
+    padding-left: 16px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: none;
+    border-width: 1px;
+    border-color: unset;
+    max-width: 1320px;
+}
+
+
+.menu-container-inside {
+    border-style: none;
+    border-width: 1px;
+    border-color: unset;
+    opacity: 1;
+}
+
+.menu-container-inside .row-space-around {
+    justify-content: space-around;
+}
+
+.display-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.p-t-2{
+    padding-top: 1rem;
+}
+
+.menu-container-inside .cln-2 {
+    display: block;
+    flex: 0 0 16.66%;
+    max-width: 16.66%;
+}
+
+.menu-container-inside .cln-8 {
+    display: block;
+    flex: 0 0 66.66%;
+    max-width: 66.66%;
+}
+
+/*.menu-container-inside .cln {
+    position: relative;
+    max-width: 100%;
+    min-height: 1px;
+}*/
+
+.home-menu {
+    border-radius: 0.5rem;
+    background-color: #FFFFFF;
+    position: relative;
+    overflow: hidden;
+    width: 12.375rem;
+    height: 28.5rem;
+    z-index: 980;
+}
+
+.h-566{
+    height: 566px;
+}
+
+z-index-250{
+    z-index: 250;
+}
+
+.parent-box{
+    height: 2rem;
+    width: 2.7rem;
+    display: table;
+    position: relative;
+
+}
+.parent-box .child-box{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+a.none-under{
+    text-decoration: none;
+}
+
+.child-box .w-24{
+    height: 24px;
+    width:24px;
+    margin:0 auto;
+    opacity: 0.9;
+}
+
+.home-menu a.none-under:hover{
+    background-color: #f3f3f3;
+    color: #1435c3!important;
+}
+
+.opacity-4{
+    opacity: 0.4!important;
+}
+
+.opacity-5{
+    opacity: 0.7!important;
+}
+
+.home-menu-right {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 0px;
+    width: calc(62.625rem);
+    left: 12.375rem;
+    min-height: 100%;
+    z-index: 980;
+    overflow: hidden;
+    transition: 0.2s;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 0.5rem;
+}
+
+.home-menu-right.active {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.home-menu-right-content {
+    display: flex;
+    flex: 1 1 0%;
+    padding: 0.75rem;
+}
+.home-menu-right-column {
+    width: 25%;
+    padding: 0 8px;
+}
+
+.home-menu-right-column-content{
+    margin-bottom: 1.5rem;
+}

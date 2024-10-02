@@ -1,0 +1,34 @@
+.cus_pagination {
+    list-style-type: none;
+    line-height: 40px;
+    }
+
+    .pagination_item {
+    display: inline-block;
+    }
+
+    ul.cus_pagination li button.w_40px{
+        width: 40px;
+    }
+
+
+    ul.cus_pagination li button{
+        background-color: #ffffff;
+        border: none!important;
+    }
+
+    ul.cus_pagination li :last-child {
+        border-right: 1px solid black!important;
+    }
+
+    .cus_pagination li{
+        border-left: 1px solid black!important;
+        border-top: 1px solid black!important;
+        border-bottom: 1px solid black!important;
+
+    }
+
+    ul.cus_pagination li button.active{
+        background-color: #4AAE9B!important;
+        color: white;
+    }

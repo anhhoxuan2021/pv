@@ -1,0 +1,8 @@
+.panel-carousel .carousel-item{
+    height: 700px !important;
+}
+
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+}

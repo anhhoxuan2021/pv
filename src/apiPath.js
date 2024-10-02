@@ -1,0 +1,1 @@
+export const apiImgPath ='http://localhost:8001/images/'

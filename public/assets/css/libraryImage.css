@@ -1,0 +1,18 @@
+
+.hover-border{
+    cursor: pointer;
+    
+}
+
+.hover-border:hover{
+    border: 1px solid black;
+    
+}
+
+.images-selected{
+    border: 1px solid black;
+}
+
+.m-auto{
+    margin: auto 0;
+}
